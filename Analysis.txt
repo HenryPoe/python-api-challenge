@@ -1,0 +1,13 @@
+WeatherPy
+	Temperature as expected is absolutely linearly related to latitude, as you get further away from the
+equator temperature goes down. The peak between 10 and 20 degrees latitude is quite interesting though.
+	The other three measures of weather that we looked at cloudiness, humidity, and wind speed all have
+r-squared values low enough when linearly regressed against latitude to conclude that they are not related.
+The most interesting one to me is how horizontal the lines are for wind speed in both hemispheres, which 
+hints towards thinking that it is equally windy and not across the globe.
+	The most interesting thing about the humidity scatter plots are the lack of points in the corners for
+very positive latitude and low humidity as well as very negative latitude and low humidity, which could either
+be explained by a relative lack of cities in both very positive and negative latitudes or maybe it is more 
+humid in those locations.
+	However I would be inclined to conclude that there is no sort of relation linear or otherwise between
+wind speed, cloudiness, and humidity vs latitude.
